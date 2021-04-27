@@ -97,7 +97,7 @@
             display:none !important;
         }
         .main-content{
-            padding: 0  !important;
+            padding: 6px  !important;
         }
         .main-content p{
             margin-bottom: 0  !important;
