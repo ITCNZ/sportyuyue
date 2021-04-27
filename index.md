@@ -191,7 +191,7 @@
             <!-- <img src="./imgs/bottom_img.png" alt="" style="max-width: 100%;"> -->
         </div>
     </div>
-    <script src="http://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript">
         $(function () {
             /**
@@ -224,7 +224,7 @@
                     time = year + "-" + month + "-" + date+ " " + hour + ":" + minu;
                 }
                 return time;
-            }
+            };
 
             // 提交
             $('#submit').click(function(){
