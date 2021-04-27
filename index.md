@@ -99,6 +99,9 @@
         .main-content{
             padding: 0  !important;
         }
+        .main-content p{
+            margin-bottom: 0  !important;
+        }
     </style>
 </head>
 <body>
