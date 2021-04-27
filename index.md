@@ -192,6 +192,22 @@
                         <p>近期是否去过高危险地区：否</p>
                     </div>
                 </li>
+                <li>
+                    <div class="head">
+                        <div class="left">03月11日 9时20分预约详情</div>
+                        <div class="right"></div>
+                    </div>
+                    <div class="body">
+                        <p>预约事项：西安外事学院体育运动中心预约单</p>
+                        <p class="userName">联系人：<em></em></p>
+                        <p class="userMobile">联系电话：<em></em></p>
+                        <p class="userId">身份证号：<em></em></p>
+                        <p>少儿培训班学员姓名：无</p>
+                        <p class="userDate">预约日期、时间：2021-03-11 19:30<em></em></p>
+                        <p>预约凭证：</p>
+                        <p>近期是否去过高危险地区：否</p>
+                    </div>
+                </li>
             </ul>
         </div>
         <div style="text-align: center; padding-top:30px; padding-bottom:40px;">&copy;微信云端免费版 · <em style="color:#a9a8ae">反馈</em></div>
