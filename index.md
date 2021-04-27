@@ -113,11 +113,11 @@
             </div>
             <div class="demos">
                 <label for="appDateTime">输入电话：</label>
-                <input type="number" id="mobile" placeholder="请输入姓名">
+                <input type="number" id="mobile" placeholder="请输入电话">
             </div>
             <div class="demos">
                 <label for="appDateTime">身份证号：</label>
-                <input type="number" id="userid" placeholder="请输入姓名">
+                <input type="number" id="userid" placeholder="请输入身份证号">
             </div>
             <div class="demos">
                 <input type="button" value="确认" id="submit">
