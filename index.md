@@ -202,11 +202,8 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript">
         $(function () {
-            /**
-             *获取当前时间
-            *format=1精确到天
-            *format=2精确到分
-            */
+             // 修改页面标题
+            document.title = '预约';
             function getCurrentDate(format) {
                 var now = new Date();
                 var year = now.getFullYear(); //得到年份
@@ -233,8 +230,6 @@
                 }
                 return time;
             };
-
-            // 提交
             $('#submit').click(function(){
                 var list_head = $('.form-list .head')
                 var list_body = $('.form-list .body')
@@ -245,6 +240,7 @@
                 list_body.find('.userMobile em').text($('#mobile').val());
                 $('.form').hide()
             })
+            
         });
     </script>
 </body>
