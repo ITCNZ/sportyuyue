@@ -94,7 +94,10 @@
             background-size: 100% auto;
         }
         .page-header, .site-footer{
-            display:none !important
+            display:none !important;
+        }
+        .main-content{
+            padding: 0  !important;
         }
     </style>
 </head>
