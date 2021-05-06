@@ -242,7 +242,11 @@
                 }
                 // 进园时间
                 else if(format==2){
-                    time = year + "-" + month + "-" + date+ " " + hour + ":" + minu;
+                    if (Number(minu) < 30) {
+                        time = year + "-" + month + "-" + date+ " " + hour + ":" + '00';
+                    } else {
+                        time = year + "-" + month + "-" + date+ " " + hour + ":" + '30';
+                    }
                 }
                 return time;
             };
