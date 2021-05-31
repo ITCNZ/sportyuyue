@@ -328,10 +328,12 @@
             var list_body = $('.form-list .body')
             list_head.find('.left').eq(0).text(getCurrentDate(1));
             list_body.find('.userDate').eq(0).find('em').text(getCurrentDate(2));
-            list_body.find('.userName em').text(userObj.username || '周先生');
-            list_body.find('.userId em').text(userObj.userid || '610415198903230012');
-            list_body.find('.userMobile em').text(userObj.mobile || '1802998795');
-            
+            list_body.find('.userName em').text(userObj.username);
+            list_body.find('.userId em').text(userObj.userid);
+            list_body.find('.userMobile em').text(userObj.mobile);
+            $('.back').click(function(){
+                window.location.href="https://itcnz.github.io/yuyueone";
+            })
         });
     </script>
 </body>
