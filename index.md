@@ -269,8 +269,8 @@
         <div style="text-align: center; padding-top:30px; padding-bottom:40px;">&copy;微讯云端免费版 · <em style="color:#a9a8ae">反馈</em></div>
         <div class="bottom-img">
             <div class="tab-icon back-btn">返回</div>
-            <div class="tab-icon home-btn active">预约首页</div>
-            <div class="tab-icon next-btn">预约</div>
+            <div class="tab-icon home-btn">预约首页</div>
+            <div class="tab-icon next-btn active">预约</div>
         </div>
     </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
