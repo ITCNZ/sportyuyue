@@ -331,7 +331,7 @@
             list_body.find('.userName em').text(userObj.username);
             list_body.find('.userId em').text(userObj.userid);
             list_body.find('.userMobile em').text(userObj.mobile);
-            $('.back').click(function(){
+            $('.back-btn, .home-btn').click(function(){
                 window.location.href="https://itcnz.github.io/yuyueone";
             })
         });
