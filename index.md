@@ -250,16 +250,32 @@
                 }
                 return time;
             };
-            $('#submit').click(function(){
-                var list_head = $('.form-list .head')
-                var list_body = $('.form-list .body')
-                list_head.find('.left').eq(0).text(getCurrentDate(1));
-                list_body.find('.userDate').eq(0).find('em').text(getCurrentDate(2));
-                list_body.find('.userName em').text($('#name').val());
-                list_body.find('.userId em').text($('#userid').val());
-                list_body.find('.userMobile em').text($('#mobile').val());
-                $('.form').hide()
-            })
+            // URL中？后转成对象
+            function urlObj(url) {
+                var obj = {};
+                if(url.indexOf("?") != -1){
+                    //如果字符串里面存在?
+                    var str = url.substring(1);
+                        //从url的索引1开始提取字符串
+                    var arr = str.split("&");
+                        //如果存在&符号，则再以&符号进行分割
+
+                    for(var i=0; i<arr.length; i++){
+                        obj[arr[i].split("=")[0]] = unescape(arr[i].split("=")[1]);
+                    }
+                }
+                return obj;
+            };
+
+            // 获取用户信息,显示页面
+            var userObj = urlObj(decodeURI(window.location.search));
+            var list_head = $('.form-list .head')
+            var list_body = $('.form-list .body')
+            list_head.find('.left').eq(0).text(getCurrentDate(1));
+            list_body.find('.userDate').eq(0).find('em').text(getCurrentDate(2));
+            list_body.find('.userName em').text(userObj.username);
+            list_body.find('.userId em').text(userObj.userid);
+            list_body.find('.userMobile em').text(userObj.mobile);
             
         });
     </script>
