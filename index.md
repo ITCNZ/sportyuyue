@@ -202,6 +202,22 @@
                 </li>
                 <li>
                     <div class="head">
+                        <div class="left">05月29日 13时17分预约详情</div>
+                        <div class="right"></div>
+                    </div>
+                    <div class="body">
+                        <p>预约事项：西安外事学院体育运动中心预约单</p>
+                        <p class="userName">联系人：<em></em></p>
+                        <p class="userMobile">联系电话：<em></em></p>
+                        <p class="userId">身份证号：<em></em></p>
+                        <p>少儿培训班学员姓名：无</p>
+                        <p class="userDate">预约日期、时间：2021-05-29 19:30<em></em></p>
+                        <p>预约凭证：</p>
+                        <p>近期是否去过高危险地区：否</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="head">
                         <div class="left">04月18日 12时10分预约详情</div>
                         <div class="right"></div>
                     </div>
@@ -228,6 +244,22 @@
                         <p class="userId">身份证号：<em></em></p>
                         <p>少儿培训班学员姓名：无</p>
                         <p class="userDate">预约日期、时间：2021-03-21 20:00<em></em></p>
+                        <p>预约凭证：</p>
+                        <p>近期是否去过高危险地区：否</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="head">
+                        <div class="left">03月18日 14时23分预约详情</div>
+                        <div class="right"></div>
+                    </div>
+                    <div class="body">
+                        <p>预约事项：西安外事学院体育运动中心预约单</p>
+                        <p class="userName">联系人：<em></em></p>
+                        <p class="userMobile">联系电话：<em></em></p>
+                        <p class="userId">身份证号：<em></em></p>
+                        <p>少儿培训班学员姓名：无</p>
+                        <p class="userDate">预约日期、时间：2021-03-18 20:00<em></em></p>
                         <p>预约凭证：</p>
                         <p>近期是否去过高危险地区：否</p>
                     </div>
